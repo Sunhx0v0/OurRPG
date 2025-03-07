@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="D:/资料/大二下/Java/ucanaccess/ucanaccess/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/资料/大二下/Java/ucanaccess/ucanaccess/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="D:/资料/大二下/Java/ucanaccess/ucanaccess/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/资料/大二下/Java/ucanaccess/ucanaccess/hsqldb-2.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/资料/大二下/Java/ucanaccess/ucanaccess/jackcess-4.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/资料/大二下/Java/ucanaccess/ucanaccess/ucanaccess-5.0.1.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

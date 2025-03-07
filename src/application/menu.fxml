@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="490.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.menucontroller">
+   <children>
+      <Slider fx:id="voiceVolumn" layoutX="184.0" layoutY="48.0" onMouseReleased="#DragDone" prefHeight="18.0" prefWidth="197.0" />
+      <CheckBox fx:id="voiceCheckBox" layoutX="56.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#CheckBoxClicked" text="背景音乐" />
+      <Button fx:id="saveButton" layoutX="57.0" layoutY="92.0" mnemonicParsing="false" onMouseClicked="#saveButtonClicked" prefHeight="72.0" prefWidth="327.0" text="保存">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="returnButton" layoutX="57.0" layoutY="185.0" mnemonicParsing="false" onMouseClicked="#returnButtonClicked" prefHeight="72.0" prefWidth="327.0" text="返回">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitGameButton" layoutX="57.0" layoutY="364.0" mnemonicParsing="false" onMouseClicked="#exitGameButtonClicked" prefHeight="72.0" prefWidth="327.0" text="退出游戏">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutUsButton" layoutX="57.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#aboutUsButtonClicked" prefHeight="72.0" prefWidth="327.0" text="关于我们">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Label layoutX="116.0" layoutY="436.0" text="退出游戏之前一定要记得存档哦" />
+      <Label layoutX="7.0" layoutY="466.0" text="悄悄提示：村长-小美-树精-大叔-喷火龙-神秘人-骷髅-镰刀武士-坤坤" />
+   </children>
+</AnchorPane>

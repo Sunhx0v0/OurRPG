@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="479.0" prefWidth="1051.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.pkController">
+   <children>
+      <ImageView fitHeight="576.0" fitWidth="1081.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/森林背景.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#1fffaf" layoutX="64.0" layoutY="57.0" radius="55.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#1fffaf" layoutX="1000.0" layoutY="57.0" radius="55.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="pingA" layoutX="916.0" layoutY="449.0" mnemonicParsing="false" onAction="#pingAATK" prefHeight="87.0" prefWidth="110.0" text="普通攻击" />
+      <Button fx:id="skill2" layoutX="330.0" layoutY="507.0" mnemonicParsing="false" onAction="#skill2ATK" text="蓄意轰拳" />
+      <Button fx:id="skill3" layoutX="554.0" layoutY="507.0" mnemonicParsing="false" onAction="#skill3ATK" text="二天一流" />
+      <Button fx:id="skill1" layoutX="124.0" layoutY="507.0" mnemonicParsing="false" onAction="#skill1ATK" text="猛烈撞击" />
+      <Button fx:id="skill4" layoutX="765.0" layoutY="507.0" mnemonicParsing="false" onAction="#skill4ATK" text="铁山靠" />
+      <TextField fx:id="info" editable="false" layoutX="355.0" layoutY="127.0" prefHeight="30.0" prefWidth="383.0" />
+      <Slider fx:id="slide1" layoutX="119.0" layoutY="27.0" prefHeight="30.0" prefWidth="310.0" value="100.0" />
+      <Slider fx:id="slide2" layoutX="639.0" layoutY="27.0" prefHeight="30.0" prefWidth="310.0" />
+      <TextField fx:id="blood1" editable="false" layoutX="442.0" layoutY="27.0" prefHeight="30.0" prefWidth="65.0" />
+      <TextField fx:id="blood2" editable="false" layoutX="570.0" layoutY="27.0" prefHeight="30.0" prefWidth="65.0" />
+      <TextField fx:id="h1" editable="false" layoutX="77.0" layoutY="537.0" prefHeight="30.0" prefWidth="87.0" />
+      <TextField fx:id="c1" editable="false" layoutX="164.0" layoutY="537.0" prefHeight="22.0" prefWidth="80.0" text="耗蓝: 10" />
+      <TextField fx:id="c2" editable="false" layoutX="370.0" layoutY="537.0" prefHeight="22.0" prefWidth="80.0" text="耗蓝: 10" />
+      <TextField fx:id="h2" editable="false" layoutX="283.0" layoutY="537.0" prefHeight="30.0" prefWidth="87.0" />
+      <TextField fx:id="c3" editable="false" layoutX="587.0" layoutY="537.0" prefHeight="22.0" prefWidth="80.0" text="耗蓝: 15" />
+      <TextField fx:id="h3" editable="false" layoutX="500.0" layoutY="537.0" prefHeight="30.0" prefWidth="87.0" />
+      <TextField fx:id="c4" editable="false" layoutX="798.0" layoutY="537.0" prefHeight="22.0" prefWidth="80.0" text="耗蓝: 25" />
+      <TextField fx:id="h4" editable="false" layoutX="711.0" layoutY="537.0" prefHeight="30.0" prefWidth="87.0" />
+      <Slider fx:id="slide3" layoutX="119.0" layoutY="63.0" prefHeight="30.0" prefWidth="310.0" value="100.0" />
+      <TextField fx:id="blue" editable="false" layoutX="442.0" layoutY="63.0" prefHeight="30.0" prefWidth="65.0" />
+      <TextField fx:id="h0" editable="false" layoutX="931.0" layoutY="536.0" prefHeight="22.0" prefWidth="80.0" />
+      <TextField fx:id="mstName" editable="false" layoutX="900.0" layoutY="112.0" prefHeight="30.0" prefWidth="155.0" />
+      <Button fx:id="back" layoutX="454.0" layoutY="237.0" mnemonicParsing="false" onAction="#Return" text="返回主页面" textFill="#cd1c1c">
+         <font>
+            <Font size="29.0" />
+         </font></Button>
+      <ImageView fx:id="atkView" fitHeight="150.0" fitWidth="200.0" layoutX="282.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/技能能.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="user" fitHeight="222.0" fitWidth="148.0" layoutX="144.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/主角.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mst" fitHeight="253.0" fitWidth="365.0" layoutX="676.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/雷音音.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="userHead" fitHeight="81.0" fitWidth="97.0" layoutX="20.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/主角头像.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="userName" editable="false" layoutX="4.0" layoutY="112.0" prefHeight="30.0" prefWidth="155.0" />
+      <ImageView fx:id="mstHead" fitHeight="81.0" fitWidth="97.0" layoutX="952.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/雷音音.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

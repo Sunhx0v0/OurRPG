@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="463.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.logincontroller">
+   <children>
+      <GridPane alignment="TOP_CENTER" layoutX="85.0" layoutY="176.0" prefHeight="142.0" prefWidth="267.0">
+        <columnConstraints>
+          <ColumnConstraints />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="49.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="51.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button id="loginButton" fx:id="loginButton" mnemonicParsing="false" onMouseClicked="#loginButtonClicked" text="登录" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+            <Button id="cancelButton" fx:id="cancelButton" mnemonicParsing="false" onMouseClicked="#cancelButtonClicked" text="取消" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+            <PasswordField id="secretEdit" fx:id="secretEdit" prefHeight="82.0" prefWidth="200.0" promptText="请输入密码" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+            <Label id="accountLabel" fx:id="accountLabel" prefHeight="20.0" prefWidth="67.0" text="账号" />
+            <Label id="secretLabel" fx:id="secretLabel" prefHeight="20.0" prefWidth="39.0" text="密码" GridPane.rowIndex="2" />
+            <TextField fx:id="accountEdit" promptText="请输入账号" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+         </children>
+      </GridPane>
+      <Button id="customerloginButton" layoutX="209.0" layoutY="328.0" mnemonicParsing="false" onMouseClicked="#customerloginButtonClicked" text="游客登录" />
+      <ImageView fitHeight="151.0" fitWidth="350.0" layoutX="133.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/loginwelcome.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainpane" onKeyPressed="#keydown" onKeyReleased="#keyrelease" prefHeight="820.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.map1controller">
+   <children>
+      <ImageView fx:id="map1image" fitHeight="792.0" fitWidth="887.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/map1.png" />
+         </image>
+      </ImageView>
+      <ImageView id="tp" fx:id="tpToMap2" fitHeight="42.0" fitWidth="62.0" layoutX="774.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/tp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mainrole" fitHeight="59.0" fitWidth="34.0" focusTraversable="true" layoutX="742.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/down.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

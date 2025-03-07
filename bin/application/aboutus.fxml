@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="554.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.aboutusController">
+   <children>
+      <Label layoutX="121.0" layoutY="35.0" text="开发人员信息">
+         <font>
+            <Font name="System Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="162.0" text="张超茂">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="117.0" text="软件工程学院2021级本科生">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="162.0" text="孙惠祥">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="162.0" text="周溪石">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="372.0" layoutY="162.0" text="张超茂">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="141.0" layoutY="264.0" text="开发者的话">
+         <font>
+            <Font name="System Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="315.0" text="这是一款复古怀旧的像素冒险小游戏，运用javafx" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1.0" layoutY="342.0" text="开发，作为java课程的大作业，同时也作为我们对游戏" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1.0" layoutY="369.0" text="领域的一次初探索。我们很多技术还不完善，尤其是动" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutY="395.0" text="画制作和特效，怀着对编程和游戏的热爱，这个游戏也" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutY="420.0" text="许会成为我们第一个游戏开发项目。" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="494.0" text="联系我们">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="496.0" text="QQ：1766396728">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="460.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.menucontroller">
+   <children>
+      <Slider fx:id="voiceVolumn" layoutX="184.0" layoutY="48.0" onMouseReleased="#DragDone" prefHeight="18.0" prefWidth="197.0" />
+      <CheckBox fx:id="voiceCheckBox" layoutX="56.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#CheckBoxClicked" text="背景音乐" />
+      <Button fx:id="saveButton" layoutX="42.0" layoutY="92.0" mnemonicParsing="false" onMouseClicked="#saveButtonClicked" prefHeight="72.0" prefWidth="327.0" text="保存">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="returnButton" layoutX="42.0" layoutY="184.0" mnemonicParsing="false" onMouseClicked="#returnButtonClicked" prefHeight="72.0" prefWidth="327.0" text="返回">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitGameButton" layoutX="42.0" layoutY="366.0" mnemonicParsing="false" onMouseClicked="#exitGameButtonClicked" prefHeight="72.0" prefWidth="327.0" text="退出游戏">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutUsButton" layoutX="42.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#aboutUsButtonClicked" prefHeight="72.0" prefWidth="327.0" text="关于我们">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

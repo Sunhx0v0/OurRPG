@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="543.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.filesController">
+   <children>
+      <GridPane layoutX="151.0" layoutY="228.0" prefHeight="152.0" prefWidth="225.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="button3" mnemonicParsing="false" onMouseClicked="#file3ButtonClicked" prefHeight="50.0" prefWidth="113.0" text="存档3" GridPane.rowIndex="1" />
+            <Button fx:id="button4" mnemonicParsing="false" onMouseClicked="#file4ButtonClicked" prefHeight="51.0" prefWidth="112.0" text="存档4" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="button1" mnemonicParsing="false" onMouseClicked="#file1ButtonClicked" prefHeight="49.0" prefWidth="113.0" text="存档1" />
+            <Button fx:id="button2" mnemonicParsing="false" onMouseClicked="#file2ButtonClicked" prefHeight="50.0" prefWidth="112.0" text="存档2" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <Label fx:id="selectTable" layoutX="151.0" layoutY="170.0" prefHeight="36.0" prefWidth="232.0" text="请选择要开始的存档" />
+      <Label fx:id="saveTable" layoutX="151.0" layoutY="199.0" prefHeight="29.0" prefWidth="225.0" text="请选择要存入的存档" />
+      <Button fx:id="backButton" layoutX="215.0" layoutY="408.0" mnemonicParsing="false" onMouseClicked="#backButtonClicked" prefHeight="58.0" prefWidth="98.0" text="退出游戏" />
+      <Label layoutX="87.0" layoutY="89.0" text="温馨提示：退出游戏前记得存档哦，不然玩了也是白玩" />
+      <Label layoutX="84.0" layoutY="120.0" text="温馨提示2.5：一定要看剧情哦，才能知道下一个该打谁" />
+   </children>
+</AnchorPane>

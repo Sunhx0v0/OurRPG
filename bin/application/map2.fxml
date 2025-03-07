@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainpane2" onKeyPressed="#keydown" onKeyReleased="#keyrelease" prefHeight="820.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.map2controller">
+   <children>
+      <ImageView fx:id="map2image" fitHeight="800.0" fitWidth="900.0" layoutX="23.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/map2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tpToMap1" fitHeight="19.0" fitWidth="67.0" layoutX="23.0" layoutY="371.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/tp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mainrole" fitHeight="60.0" fitWidth="35.0" focusTraversable="true" layoutX="74.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/down.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="45.0" layoutX="239.0" layoutY="757.0">
+         <image>
+            <Image url="@../image/角色/树精/down.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="59.0" layoutX="480.0" layoutY="462.0">
+         <image>
+            <Image url="@../image/角色/喷火龙/left.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="45.0" layoutX="686.0" layoutY="355.0">
+         <image>
+            <Image url="@../image/角色/骷髅/left.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="59.0" layoutX="656.0" layoutY="545.0">
+         <image>
+            <Image url="@../image/角色/神秘人/down.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="45.0" layoutX="106.0" layoutY="341.0">
+         <image>
+            <Image url="@../image/角色/村民大叔/down.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="67.0" layoutX="568.0" layoutY="126.0">
+         <image>
+            <Image url="@../image/角色/镰刀武士/down.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
